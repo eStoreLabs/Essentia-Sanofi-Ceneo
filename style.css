@@ -305,6 +305,29 @@
   background: #ffae00;
   transform: rotate(45deg);
 }
+#es-essentia.es-essentia .es-info__btn {
+  background: url(img/dosage-bg-dt.jpg) 100% 100% no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    color: #fff;
+    padding: 12px;
+}
+#es-essentia.es-essentia .es-info__mainTitle {
+  font-weight: 500;
+  font-size: 56px;
+  margin-bottom: 16px;
+}
+#es-essentia.es-essentia .es-info__arrow {
+  font-size: 36px;
+  margin-right: 10px;
+}
+
+#es-essentia.es-essentia .es-info__mainCtn {
+  animation: details-show 200ms ease-in-out;
+}
 #es-essentia.es-essentia .es-info .swiper-button-next,
 #es-essentia.es-essentia .es-info .swiper-button-prev {
   display: none;
