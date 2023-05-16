@@ -235,6 +235,26 @@
 #es-essentia.es-essentia .es-support__square {
   max-width: 16px;
 }
+
+#es-essentia.es-essentia .es-video {
+  /* max-width: 960px; */
+  min-width: 320px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+#es-essentia.es-essentia .es-video__videoCnt {
+  width: 100%;
+  margin: 0 auto;
+  padding: 40px 0;
+}
+#es-essentia.es-essentia .es-video__iframe {
+  width: 100%;
+  min-height: 450px;
+  z-index: 1;
+}
+
 #es-essentia.es-essentia .es-dosage {
   padding: 12px;
   background: url(img/slide-bg.jpg);
