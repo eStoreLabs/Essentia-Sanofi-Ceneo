@@ -10,6 +10,14 @@
   font-weight: 600;
   font-style: normal;
 }
+
+@keyframes details-show {
+  from {
+    opacity: 0;
+    transform: translateY(-10%);
+  }
+}
+
 #es-essentia.es-essentia {
   font-family: "Oswald", sans-serif;
   font-weight: 400;
@@ -710,20 +718,25 @@
     max-width: 46%;
     font-size: 16px;
   }
+
   #es-essentia.es-essentia .es-dosage {
     background: url(img/dosage-bg-dt.jpg) 100% 100% no-repeat;
     background-size: cover;
     display: flex;
   }
+
+  
   #es-essentia.es-essentia .es-dosage__title {
     font-size: 56px;
   }
   #es-essentia.es-essentia .es-dosage__arrow {
     font-size: 36px;
   }
+
   #es-essentia.es-essentia .es-dosage__mainCtn {
     display: flex;
     flex-direction: row;
+    animation: details-show 200ms ease-in-out;
   }
   #es-essentia.es-essentia .es-dosage__wrapper {
     max-width: 45%;
@@ -748,6 +761,11 @@
   #es-essentia.es-essentia .es-dosage__hide {
     display: none;
   }
+
+
+ 
+  
+
   #es-essentia.es-essentia .es-info .swiper-button-next,
   #es-essentia.es-essentia .es-info .swiper-button-prev {
     display: flex;
@@ -797,6 +815,7 @@
   }
   #es-essentia.es-essentia .es-comp__content--desktop {
     display: block;
+    animation: details-show 200ms ease-in-out;
   }
   #es-essentia.es-essentia .es-comp__arrow {
     font-size: 36px;
