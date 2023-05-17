@@ -11,12 +11,12 @@
   font-style: normal;
 }
 
-@keyframes details-show {
+/* @keyframes details-show {
   from {
     opacity: 0;
     transform: translateY(-10%);
   }
-}
+} */
 
 #es-essentia.es-essentia {
   font-family: "Oswald", sans-serif;
@@ -338,7 +338,7 @@
 }
 #es-essentia.es-essentia .es-info__mainTitle {
   font-weight: 500;
-  font-size: 56px;
+  font-size: 22px;
   margin-bottom: 16px;
 }
 #es-essentia.es-essentia .es-info__arrow {
@@ -346,9 +346,9 @@
   margin-right: 10px;
 }
 
-#es-essentia.es-essentia .es-info__mainCtn {
+/* #es-essentia.es-essentia .es-info__mainCtn {
   animation: details-show 200ms ease-in-out;
-}
+} */
 #es-essentia.es-essentia .es-info .swiper-button-next,
 #es-essentia.es-essentia .es-info .swiper-button-prev {
   display: none;
@@ -780,7 +780,7 @@
   #es-essentia.es-essentia .es-dosage__mainCtn {
     display: flex;
     flex-direction: row;
-    animation: details-show 200ms ease-in-out;
+    /* animation: details-show 200ms ease-in-out; */
   }
   #es-essentia.es-essentia .es-dosage__wrapper {
     max-width: 45%;
@@ -807,7 +807,9 @@
   }
 
 
- 
+ #es-essentia.es-essentia .es-info__mainTitle {
+  font-size: 56px;
+ }
   
 
   #es-essentia.es-essentia .es-info .swiper-button-next,
@@ -859,7 +861,7 @@
   }
   #es-essentia.es-essentia .es-comp__content--desktop {
     display: block;
-    animation: details-show 200ms ease-in-out;
+    /* animation: details-show 200ms ease-in-out; */
   }
   #es-essentia.es-essentia .es-comp__arrow {
     font-size: 36px;
@@ -912,4 +914,8 @@
   #es-essentia.es-essentia .es-desc__item {
     font-size: 16px;
   }
+  #es-essentia.es-essentia .es-table__wrapper {
+    overflow-x: hidden;
+  }
+  
 }/*# sourceMappingURL=style.css.map */
