@@ -130,6 +130,9 @@
   font-weight: 500;
   transform: translateY(55%);
 }
+#es-essentia.es-essentia .es-kv__title sup {
+  font-size: 18px;
+}
 #es-essentia.es-essentia .es-kv__packshot {
   position: absolute;
   bottom: 0;
@@ -158,6 +161,9 @@
 }
 #es-essentia.es-essentia .es-features__text {
   font-size: 14px;
+}
+#es-essentia.es-essentia .es-features__text sup {
+  font-size: 8px;
 }
 #es-essentia.es-essentia .es-support {
   position: relative;
@@ -293,6 +299,7 @@
 #es-essentia.es-essentia .es-dosage__items {
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 16px;
 }
 #es-essentia.es-essentia .es-dosage__item {
@@ -650,6 +657,11 @@
 #es-essentia.es-essentia .es-disclaimer__sanofi {
   max-width: 100px;
 }
+#es-essentia.es-essentia .es-disclaimer__bottom--border {
+  outline: 2px solid black;
+  font-weight: bold;
+  padding: 0.5rem;
+}
 @media screen and (min-width: 768px) {
   #es-essentia.es-essentia .es-kv {
     margin-bottom: 0;
@@ -668,6 +680,9 @@
     padding: 40px;
     bottom: 0;
     transform: translateY(0);
+  }
+  #es-essentia.es-essentia .es-kv__title sup {
+    font-size: 30px;
   }
   #es-essentia.es-essentia .es-kv__packshot {
     bottom: 35px;
@@ -721,6 +736,9 @@
   }
   #es-essentia.es-essentia .es-features__text {
     font-size: 16px;
+  }
+  #es-essentia.es-essentia .es-features__text sup {
+    font-size: 12px;
   }
   #es-essentia.es-essentia .es-support {
     background: url(img/support-bg-1.png) no-repeat 100% 100%;
@@ -780,6 +798,8 @@
   #es-essentia.es-essentia .es-dosage__mainCtn {
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: center;
     /* animation: details-show 200ms ease-in-out; */
   }
   #es-essentia.es-essentia .es-dosage__wrapper {
@@ -787,6 +807,8 @@
   }
   #es-essentia.es-essentia .es-dosage__items {
     flex-direction: column;
+    padding: 24px 0;
+    gap: 32px;
   }
   #es-essentia.es-essentia .es-dosage__text {
     max-width: 60%;
@@ -795,10 +817,7 @@
   #es-essentia.es-essentia .es-dosage__img {
     max-width: none;
   }
-  #es-essentia.es-essentia .es-dosage__items {
-    padding: 24px 0;
-    gap: 32px;
-  }
+ 
   #es-essentia.es-essentia .es-dosage__desc {
     font-size: 24px;
   }
@@ -876,7 +895,8 @@
   #es-essentia.es-essentia .es-comp__secondCtn {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    margin-block: 20px;
   }
   #es-essentia.es-essentia .es-comp__item {
     min-height: 150px;
@@ -897,7 +917,7 @@
   #es-essentia.es-essentia .es-comp__img {
     right: 0;
     margin-top: -27px;
-    max-width: 700px;
+    max-width: 500px;
   }
   #es-essentia.es-essentia .es-comp__texts {
     margin-right: 0;
