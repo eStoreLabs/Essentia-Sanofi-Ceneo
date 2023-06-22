@@ -1,19 +1,25 @@
 @font-face {
-  font-family: 'ITCAvantGardeStd';
-  src: url('fonts/ITCAvantGardeStd-Bk.otf');
-  font-weight: 400;
-  font-style: normal;
+  font-family: "Oswald-Light";
+  src: url("https://estorelabs.github.io/es-hosting/fonts/Oswald/Oswald-Light.woff") format("woff");
+  font-weight: 300;
+  font-display: swap;
 }
 @font-face {
-  font-family: 'ITCAvantGardeStd';
-  src: url('fonts/ITCAvantGardeStd-Bold.otf');
-  font-weight: 600;
-  font-style: normal;
+  font-family: "Oswald-Regular";
+  src: url("https://estorelabs.github.io/es-hosting/fonts/Oswald/Oswald-Regular.woff") format("woff");
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Oswald-Medium";
+  src: url("https://estorelabs.github.io/es-hosting/fonts/Oswald/Oswald-Medium.woff") format("woff");
+  font-weight: 500;
+  font-display: swap;
 }
 
 #es-essentia.es-essentia {
-  font-family: 'Oswald', sans-serif;
-  font-weight: 400;
+  font-family: "Oswald-regular", sans-serif;
   font-size: 16px;
   line-height: 1.2;
   max-width: 998px;
@@ -22,8 +28,7 @@
   overflow: hidden;
   color: #000;
   background: #fff;
-  /* Track */
-  /* Handle */
+
 }
 #es-essentia.es-essentia html,
 #es-essentia.es-essentia body {
@@ -123,7 +128,7 @@
   font-size: 32px;
   text-transform: uppercase;
   font-style: italic;
-  font-weight: 500;
+  font-family: "Oswald-Medium";
   transform: translateY(55%);
 }
 #es-essentia.es-essentia .es-kv__title sup {
@@ -147,11 +152,12 @@
   margin-bottom: 32px;
 }
 #es-essentia.es-essentia .es-features__feature {
-  max-width: 312px;
-  width: calc(50% - 24px);
+  /* max-width: 312px; */
+  /* width: calc(50% - 24px); */ /* doesn't work on Ceneo */
+  width: 40%;
 }
 #es-essentia.es-essentia .es-features__title {
-  font-weight: 500;
+  font-family: "Oswald-Medium";
   margin: 8px 0;
   font-size: 16px;
 }
@@ -187,7 +193,7 @@
 }
 #es-essentia.es-essentia .es-support__title {
   padding: 12px;
-  font-weight: 500;
+  font-family: "Oswald-Medium";
   color: #fff;
   font-size: 22px;
   margin-bottom: 16px;
@@ -222,7 +228,7 @@
   color: #fff;
 }
 #es-essentia.es-essentia .es-support__desc {
-  font-weight: 300;
+  font-family: "Oswald-Light";
 }
 #es-essentia.es-essentia .es-support__subtitle {
   color: #fff;
@@ -274,18 +280,18 @@
 #es-essentia.es-essentia .es-dosage__arrow {
   font-size: 22px;
   color: #fff;
-  font-weight: 500;
+  font-family: "Oswald-Medium";
   margin-right: 10px;
 }
 #es-essentia.es-essentia .es-dosage__title {
-  font-weight: 500;
+  font-family: "Oswald-Medium";
   font-size: 22px;
   color: #fff;
   margin-bottom: 16px;
 }
 #es-essentia.es-essentia .es-dosage__text {
   color: #fff;
-  font-weight: 300;
+  font-family: "Oswald-Light";
   margin-bottom: 24px;
 }
 #es-essentia.es-essentia .es-dosage__mainCtn {
@@ -339,7 +345,7 @@
   padding: 12px;
 }
 #es-essentia.es-essentia .es-info__mainTitle {
-  font-weight: 500;
+  font-family: "Oswald-Medium";
   font-size: 22px;
   margin-bottom: 16px;
 }
@@ -432,12 +438,12 @@
 #es-essentia.es-essentia .es-info__title {
   color: #fff;
   font-size: 22px;
-  font-weight: 500;
+  font-family: "Oswald-Medium";
   margin-bottom: 8px;
 }
 #es-essentia.es-essentia .es-info__text {
   color: #fff;
-  font-weight: 300;
+  font-family: "Oswald-Light";
 }
 #es-essentia.es-essentia .es-info__text--doctor {
   max-width: 460px;
@@ -453,7 +459,7 @@
 }
 #es-essentia.es-essentia .es-table__title {
   color: #506f13;
-  font-weight: 500;
+  font-family: "Oswald-Medium";
   text-align: center;
   padding: 14px;
   font-size: 20px;
@@ -553,7 +559,7 @@
   text-align: center;
   padding: 8px 14px;
   border-radius: 50px;
-  font-weight: 500;
+  font-family: "Oswald-Medium";
   margin: 14px auto;
 }
 #es-essentia.es-essentia .es-comp {
@@ -575,7 +581,7 @@
 #es-essentia.es-essentia .es-comp__arrow {
   font-size: 22px;
   color: #fff;
-  font-weight: 500;
+  font-family: "Oswald-Medium";
 }
 #es-essentia.es-essentia .es-comp__hiddenCtn {
   display: block;
@@ -588,7 +594,7 @@
   font-size: 22px;
   margin-bottom: 16px;
   color: #fff;
-  font-weight: 500;
+  font-family: "Oswald-Medium";
 }
 #es-essentia.es-essentia .es-comp__items {
   display: flex;
@@ -609,7 +615,7 @@
 }
 #es-essentia.es-essentia .es-comp__text {
   color: #fff;
-  font-weight: 500;
+  font-family: "Oswald-Medium";
   line-height: 1.5;
 }
 #es-essentia.es-essentia .es-comp__mg {
@@ -627,7 +633,7 @@
 }
 #es-essentia.es-essentia .es-desc__item {
   color: #506f13;
-  font-weight: 300;
+  font-family: "Oswald-Light";
   margin: 5px 0;
   font-size: 16px;
 }
@@ -638,14 +644,14 @@
   font-size: 18px;
   margin-bottom: 8px;
   color: #506f13;
-  font-weight: 500;
+  font-family: "Oswald-Medium";
 }
 #es-essentia.es-essentia .es-disclaimer__list {
   list-style: none;
 }
 #es-essentia.es-essentia .es-disclaimer__item {
   color: #506f13;
-  font-weight: 300;
+  font-family: "Oswald-Light";
 }
 #es-essentia.es-essentia .es-disclaimer__bottom {
   display: flex;
@@ -654,7 +660,7 @@
 }
 #es-essentia.es-essentia .es-disclaimer__mat {
   color: #506f13;
-  font-weight: 500;
+  font-family: "Oswald-Medium";
   font-size: 16px;
   margin-left: 20px;
 }
@@ -726,7 +732,7 @@
     color: #fff;
   }
   #es-essentia.es-essentia .es-nav__link {
-    font-weight: 500;
+    font-family: "Oswald-Medium";
     text-align: center;
     color: #000;
     text-decoration: none;
@@ -886,7 +892,7 @@
   #es-essentia.es-essentia .es-comp__arrow {
     font-size: 36px;
     color: #fff;
-    font-weight: 500;
+    font-family: "Oswald-Medium";
   }
   #es-essentia.es-essentia .es-comp__items {
     justify-content: space-around;
