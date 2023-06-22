@@ -154,7 +154,7 @@
 #es-essentia.es-essentia .es-features__feature {
   /* max-width: 312px; */
   /* width: calc(50% - 24px); */ /* doesn't work on Ceneo */
-  width: 40%;
+  width: 45%;
 }
 #es-essentia.es-essentia .es-features__title {
   font-family: "Oswald-Medium";
@@ -738,8 +738,9 @@
     text-decoration: none;
   }
   #es-essentia.es-essentia .es-features__feature {
-    max-width: 212px;
-    width: calc(50% - 24px);
+    /* max-width: 212px;
+    width: calc(50% - 24px); */
+    width: 23%;
   }
   #es-essentia.es-essentia .es-features__title {
     font-size: 22px;
