@@ -81,6 +81,9 @@
   font-family: inherit;
   font-weight: inherit;
 }
+#es-essentia.es-essentia li {
+  list-style: none;
+}
 #es-essentia.es-essentia sup {
   line-height: 0;
 }
@@ -649,9 +652,13 @@
 #es-essentia.es-essentia .es-disclaimer__list {
   list-style: none;
 }
+#es-essentia.es-essentia .es-disclaimer__list li {
+  list-style: none;
+}
 #es-essentia.es-essentia .es-disclaimer__item {
   color: #506f13;
   font-family: "Oswald-Light";
+  word-break: break-word;
 }
 #es-essentia.es-essentia .es-disclaimer__bottom {
   display: flex;
