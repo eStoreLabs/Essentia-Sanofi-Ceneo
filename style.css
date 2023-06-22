@@ -179,9 +179,9 @@
 #es-essentia.es-essentia .es-support .swiper-wrapper {
   display: block;
 }
-#es-essentia.es-essentia .es-support .swiper-slide:not(:last-child) {
+/* #es-essentia.es-essentia .es-support .swiper-slide:not(:last-child) {
   margin-bottom: 24px;
-}
+} */
 #es-essentia.es-essentia .es-support .swiper-button-prev,
 #es-essentia.es-essentia .es-support .swiper-button-next {
   display: none;
